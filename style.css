@@ -82,8 +82,12 @@ nav{
     font-size: 32px;
 }
 
+.hero h1{
+    font-size: 4vw;
+}
+
 .hero p{
-    font-size: 24px;
+    font-size: 2vw;
     text-align: center;
 }
 
@@ -177,11 +181,11 @@ nav{
 }
 
 .fourth-page h3{
-    font-size: 32px;
+    font-size: 2.5vw;
 }
 
 .fourth-page p{
-    font-size: 18px;
+    font-size: 1.5vw;
 }
 
 .fifth-page{
@@ -199,6 +203,8 @@ nav{
     align-items: flex-start;
     gap: 30px;
 }
+
+
 
 .giftcard-content button{
     padding: 10px 15px;
@@ -263,14 +269,42 @@ footer{
         gap: 20px;
     }
 
-   
-
-    .hero{
-        width: 100%;
+    .flex1{
+        padding: 0px 20px;
     }
 
+    .hero h1{
+        font-size: 8vw;
+    }
+    
+    .hero p{
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .second-page{
+        height:120vh;
+    }
+
+    .third-page{
+        padding-top: 300px;
+    }
+
+   
     .image img{
         width: 80%;
+    }
+
+    .giftcard-img img{
+        width: 80%;
+    }
+
+    .fourth-page h3{
+        font-size: 4vw;
+    }
+    
+    .fourth-page p{
+        font-size: 3vw;
     }
 
 
